@@ -1,0 +1,28 @@
+<html>
+<head>
+	<script src="/js/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/navbar.css">
+	<script src="/js/navbar.js"></script>
+	<base target="_parent" />
+	<script>
+		$(document).ready(function(){
+		    $('#loading_wrap').fadeOut(1000, function() {
+		    	$('#loading_wrap').remove();
+		    });
+		});
+	</script>
+</head>
+<body>
+	<div id='loading_wrap' style='position:fixed; height:100%; width:100%; overflow:hidden; top:0; left:0; background-color: #073642;'><a href="https://loading.io/spinner/double-ring" >loading.io made possible this SVG.</a><img src="/images/loading.svg" style="position: absolute;margin: auto;top: 0;left: 0;right: 0;bottom: 0;width: 40%;height: 40%;"/></div>
+	<div class="topnav" id="myTopnav">
+  	<a href="/" id="home_a">Home</a>
+  	<a href="/articles" id="articles_a">Articles</a>
+  	<a href="/about" id="about_a">About me</a>
+  	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    	<i class="fa fa-bars"></i>
+  	</a>
+</div>
+</body>
+</html>
+

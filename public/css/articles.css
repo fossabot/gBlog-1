@@ -1,0 +1,30 @@
+ul.articles_ul {
+	list-style-type: none;
+}
+
+.articles_div {
+	border: 4px solid #002b36;
+	padding: 5px;
+	margin: 10px;
+}
+
+.articles_div_home {
+	border: 4px solid #002b36;
+	padding: 5px;
+	margin: 10px;
+}
+
+a {		
+	font-size: 125%;
+	text-decoration: none;
+}
+
+a:hover {		
+	text-decoration: underline;
+}
+
+@media(max-width:1000px){
+	a {		
+		font-size: 425%;
+	}
+}

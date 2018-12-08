@@ -1,0 +1,82 @@
+body {
+	background-color: #073642;
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 200%;
+}
+
+h2 {
+	font-size: 175%;
+}
+
+p {
+ 	font-size: 125%;
+}
+
+* {
+    font-family: Impact, Charcoal, sans-serif;
+    color: #586e75;
+}
+
+@media(max-width:1000px){
+	body {
+		background-color: #073642;
+		font-size: 16px;
+	}
+
+	h1 {
+ 		font-size: 600%;
+	}
+
+	h2 {
+		font-size: 475%;
+	}
+
+	p {
+	 	font-size: 425%;
+	}
+
+	.small_p {
+		font-size: 400%;
+	}
+
+	.article_div {
+		line-height:600%;
+	}
+}
+
+b {
+	color: #268bd2;
+}
+
+b.sentence_b {
+	color: #859900;
+}
+
+b.quote_b {
+	color: #d33682;
+}
+
+a {
+	color: #2aa198;
+}
+
+small {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.small_p {
+	font-size: 100%;
+}
+
+.article_div {
+ 	border: 4px solid #002b36;
+ 	padding: 5px;
+}
+
+.navbar_iframe {
+	margin: 0 0 0 0;
+}
